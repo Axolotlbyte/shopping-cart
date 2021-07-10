@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.8283b6c6.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.e6b47c53.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.e6b47c53.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.e2f9aa8b.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.e2f9aa8b.js.map",
+    "static/js/2.2301b77c.chunk.js": "/shopping-cart/static/js/2.2301b77c.chunk.js",
+    "static/js/2.2301b77c.chunk.js.map": "/shopping-cart/static/js/2.2301b77c.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.8283b6c6.chunk.css.map": "/shopping-cart/static/css/main.8283b6c6.chunk.css.map",
+    "static/js/2.2301b77c.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.2301b77c.chunk.js.LICENSE.txt",
+    "static/media/Coconut.71a2b5fc.jpg": "/shopping-cart/static/media/Coconut.71a2b5fc.jpg",
+    "static/media/dark-chocolate.c7596672.jpg": "/shopping-cart/static/media/dark-chocolate.c7596672.jpg",
+    "static/media/end.cf22ad4c.png": "/shopping-cart/static/media/end.cf22ad4c.png",
+    "static/media/ice-cream-1.3bf92cf9.jpg": "/shopping-cart/static/media/ice-cream-1.3bf92cf9.jpg",
+    "static/media/ice-cream-2.d377c297.jpg": "/shopping-cart/static/media/ice-cream-2.d377c297.jpg",
+    "static/media/ice-creme.afcc1150.jpeg": "/shopping-cart/static/media/ice-creme.afcc1150.jpeg",
+    "static/media/icecream-img.8973a4c7.jpg": "/shopping-cart/static/media/icecream-img.8973a4c7.jpg",
+    "static/media/icecream.7bcc3249.jpg": "/shopping-cart/static/media/icecream.7bcc3249.jpg",
+    "static/media/licorice.c6b3ba3e.jpg": "/shopping-cart/static/media/licorice.c6b3ba3e.jpg",
+    "static/media/logo.099827db.png": "/shopping-cart/static/media/logo.099827db.png",
+    "static/media/oreo.0d47cf2d.jpg": "/shopping-cart/static/media/oreo.0d47cf2d.jpg",
+    "static/media/pistachio.e270232b.jpg": "/shopping-cart/static/media/pistachio.e270232b.jpg",
+    "static/media/snickers.2c8a05ce.png": "/shopping-cart/static/media/snickers.2c8a05ce.png",
+    "static/media/sorbet.f5ecdcd5.jpg": "/shopping-cart/static/media/sorbet.f5ecdcd5.jpg",
+    "static/media/straciatella.a97ddec8.jpg": "/shopping-cart/static/media/straciatella.a97ddec8.jpg",
+    "static/media/vanilla.4df5fab2.jpg": "/shopping-cart/static/media/vanilla.4df5fab2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2f9aa8b.js",
+    "static/js/2.2301b77c.chunk.js",
+    "static/css/main.8283b6c6.chunk.css",
+    "static/js/main.e6b47c53.chunk.js"
+  ]
+}
