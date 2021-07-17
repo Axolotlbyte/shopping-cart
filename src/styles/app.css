@@ -1,0 +1,78 @@
+.app-cont{
+    height: 100vh;
+    width: 100vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: auto;
+}
+
+.link-btn{
+    display: block;
+    width: 20vh;
+    height: 10vh;
+    border: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 25vh;
+    background-color: rgba(0, 0, 0, 0.514);
+}.link-btn:hover{
+    border: 6px solid;
+    background-color: white;
+}.link-btn:active{
+    box-shadow: 
+    0 0 1vh 0.5vh rgba(205, 202, 255, 0.719), 
+    0 0 2vh 1.5vh rgba(107, 100, 173, 0.603), 
+    0 0 3vh 2.5vh rgba(110, 92, 212, 0.363);
+    border-color: turquoise;
+}
+
+.name{
+    font-size: 3.2vh;
+    padding: none;
+    text-decoration: none;
+    color: white;
+    width: 21vh;
+    height: 11vh;
+    justify-content: center;
+
+}.name:hover{
+    color: black;
+
+}
+
+.grad{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient( black,rgba(0, 0, 0, 0.750) ,rgb(0,0,0,0.50),rgb(0,0,0,0.25) ,rgb(0,0,0,0) 50%);
+    overflow: auto;
+}
+
+.app-head{
+    width: 100vw;
+    height: 20vh;
+    align-content: center;
+}
+.centre{
+    display: block;
+    width: 80vh;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+.logo-app{
+    display: inline-block;
+    width: 20vh;
+}
+
+.app-title{
+    display: inline-block;
+    position: absolute;
+    font-size: 7vh;
+    color: white;
+    cursor: default;
+}
+

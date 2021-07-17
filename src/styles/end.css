@@ -1,0 +1,28 @@
+.end-img{
+    display: block;
+    height: 70vh;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    /* z-index: 97; */
+}
+
+.end-cont{
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    font-size: 3vh;
+    background-color: lavender;
+}
+
+.oops{
+    display: block;
+    /* z-index: 98; */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-size: 3.5vh;
+}
