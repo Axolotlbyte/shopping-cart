@@ -10,7 +10,7 @@
     margin-left: 4vh;
     position: absolute;
     height: 8vh;
-    color: rgb(32, 136, 177);
+    color: rgb(20, 57, 72);
     font-size: 4vh;
     margin-top: 5vh;
     cursor: pointer;
@@ -60,4 +60,10 @@
     height: 10vh;
     margin-left: 5vh;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .logo-img{
+        margin-left: 2vh;
+    }
 }

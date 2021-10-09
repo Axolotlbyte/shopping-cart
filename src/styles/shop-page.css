@@ -4,10 +4,12 @@
     display: block;
     position: relative;
     z-index: 99;
+    background-image: url('../images/background-1.png');
+    background-repeat: repeat;
 }
 
 .mid-cont{
-    height: 100%;
+    height: auto;
     width: 100%;
     display: block;
     position: relative;
@@ -20,8 +22,14 @@
     display: block;
     position: relative;
     width: 78vw ;
-    height: 85vh;
+    height: 79vh;
     margin-left: auto;  
     margin-right: auto;
     z-index: 99;
+}
+
+@media only screen and (max-width: 600px){
+    .cards-cont{
+        height: 74vh;
+    }
 }

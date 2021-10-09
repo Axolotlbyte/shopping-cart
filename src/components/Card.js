@@ -6,6 +6,12 @@ const Card = (props) => {
 
     const {handleCart,cardItem} = props
 
+    if(cardItem.id === 0){
+        return(
+            <div className="end-card"></div>
+        )
+    }
+
     return (
         <div className='card-cont'>
             <div className='photo'>

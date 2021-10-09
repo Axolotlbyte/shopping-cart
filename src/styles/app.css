@@ -6,6 +6,7 @@
     -o-background-size: cover;
     background-size: cover;
     overflow: auto;
+    background-position: center;
 }
 
 .link-btn{
@@ -76,3 +77,14 @@
     cursor: default;
 }
 
+@media only screen and (max-width: 600px){
+    .logo-app{
+        position: relative;
+        width: 10vh;
+        margin-left: 2vh;
+        top: 2vh;
+    }
+    .app-title{
+        font-size: 5vh;
+    }
+}

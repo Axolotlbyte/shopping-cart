@@ -1,8 +1,8 @@
 .item-cont{
     display: block;
-    width: 29vw;
+    width: 97%;
     height: auto;
-    margin-left: 1vh;
+    margin-left: 3%;
 }
 
 .del-cont{
@@ -63,16 +63,29 @@
 
 .name-it{
     display: inline-block;
-    position: absolute;
     font-size: 1.4vw;
     height: 1.5vw;
     margin-left: 0.5vw;
 }
 
-.price-it{
+
+.itm-info{
     display: inline-block;
-    position: absolute;
-    font-size: 1.2vw;
-    margin-top: 4vw;
-    margin-left: 0.5vw;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px){
+    .item-img{
+        height: 16vw;
+    }
+    .name-it{
+        font-size: 2.15vh;
+        margin-left: 1vh;
+    }
+    .price-it{
+        font-size: 1.8vh;
+        margin-top: 2.6vh;
+        margin-left: 1vh;
+        padding: 1vh;
+    }
 }

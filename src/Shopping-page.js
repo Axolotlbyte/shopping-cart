@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Card from './components/Card'
 import Header from './components/Header'
 import Cart from './components/Cart'
+import Footer from './components/Footer'
 import './styles/shop-page.css'
 import coco from './flavours/Coconut.jpg'
 import darkchoc from './flavours/dark-chocolate.jpg'
@@ -26,7 +27,8 @@ const Page = () => {
         {id: 6, price: 0, qty: 0, val: 30, src: snickers, title: 'Snickers Icecream'},
         {id: 7, price: 0, qty: 0, val: 35, src: straci, title: 'Straciatella Icecream'},
         {id: 8, price: 0, qty: 0, val: 50, src: vanilla, title: 'Vanilla Icecream'},
-        {id: 9, price: 0, qty: 0, val: 25, src: sorbet, title: 'Fruit Sorbet Icecream'}
+        {id: 9, price: 0, qty: 0, val: 25, src: sorbet, title: 'Fruit Sorbet Icecream'},
+        {id: 0, price: null, qty: null, val: null, src: null, title: null}
     ]
 
     const handleCart = (card,val) => {
@@ -94,8 +96,9 @@ const Page = () => {
             <div className='mid-cont'>    
                 <div className='cards-cont'>
                     {cardItems.map((card) => {return <Card key={card.id} cardItem={card} handleCart={handleCart} />})}
-                </div>
-            </div> 
+                </div> 
+            </div>
+            <Footer/>
         </div>
     )
 }

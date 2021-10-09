@@ -26,3 +26,10 @@
     position: relative;
     font-size: 3.5vh;
 }
+
+@media only screen and (max-width: 600px){
+    .end-img{
+        margin-top: 20vh;
+        height: 45vh;
+    }
+}
