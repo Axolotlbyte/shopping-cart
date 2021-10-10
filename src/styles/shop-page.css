@@ -33,3 +33,9 @@
         height: 74vh;
     }
 }
+
+@media only screen and (min-width: 600px){
+    .cards-cont{
+        width: 80vw;
+    }
+}

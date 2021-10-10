@@ -1,6 +1,58 @@
 .footer-cont{
     background-color: #523152;
     width: 100%;
-    height: 6vh;
+    height: 5vh;
     display: block;
+    position: relative;
+    bottom: 0;
+}
+
+.github-img{
+    width: 24px;
+    height: 24px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.footer-list{
+    margin-top: 10px;
+    align-self: center;
+    float: left;
+    margin-left: 45%;
+}
+
+.footer-text{
+    margin-top: 12px;
+    margin-left: 47%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    height: none;
+    width: none;
+}
+
+@media only screen and (max-width: 600px){
+    .footer-list{
+        margin-left: 40%;
+    }
+    .footer-text{
+        margin-left: 48%;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .footer-list{
+        margin-left: 40%;
+    }
+    .footer-text{
+        margin-left: 44%;
+    }
 }

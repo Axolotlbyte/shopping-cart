@@ -10,14 +10,13 @@ const Header = (props) => {
         y: window.innerHeight
     });
     const updateSize = () => {
-        console.log(size)
         return setSize({
             x: window.innerWidth,
             y: window.innerHeight
         });
     }
-    useEffect(() => (window.onresize = updateSize));
-    console.log(size)
+    useEffect(() => (window.onresize = updateSize),[]);
+
 
     if(size !== undefined && size.x < 600){
         return (
